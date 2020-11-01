@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?
+    family=poopins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="125px">
+    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html"><h3>Home</h3></a></li>
+                <li><a href=""><h3>products</h3></a></li>
+                <li><a href=""><h3>About</h3></a></li>
+                <li><a href=""><h3>Contact</h3></a></li>
+                <li><a href=""><h3>Account</h3></a></li>
+            </ul>
+        </nav>
+        <img src="cart.jpg" width="30px" height="30px">
+    </div>
+
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="p.jpg" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+                        </div>
+                    
+                
+            
+        
+                        <form id="LoginForm">
+                           <input type="text" placeholder="Username">
+                           <input type="password" placeholder="password">
+                           <button type="submit" class="btn">Log in</button>
+                           <a href="">Forgot password</a>
+
+                        </form>
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Register</button>
+                            
+ 
+                         </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+   
+                    <div class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-col-1">
+                                    <h3>Download Our App</h3>
+                                    <p>Download App for android and ios mobile
+                                        phone
+                                    </p>
+                                    <div class="app-logo">
+                                        <img src="ps.jpg">
+                                        <img src="as.jpg">
+                                    </div>
+                                </div>
+                                <div class="footer-col-2">
+                                   <img src="logo.png" width="100px" height="100px">
+                                    <p>Our Purpose is to Sustainably Make 
+                                        the pleasure and Benefits of sports Accessible
+                                        to the money.
+                                    </p>
+                                </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+            </div>
+        </div>
+
+        <script>
+            var LoginForm = document.getElementById("LoginForm");
+            var RegForm = document.getElementById("RegForm");
+            var Indicator = document.getElementById("Indicator");
+
+            function Register(){
+
+                RegForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)";
+            }
+
+            function Login(){
+                RegForm.style.transform = "translateX(300px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(0px)";
+            }
+        </script>
+
+</body>
+</html>
