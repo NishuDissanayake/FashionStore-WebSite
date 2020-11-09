@@ -372,6 +372,8 @@ nav table td
     width: 100px;
     border: 2px solid red;
     background-color: burlywood;
+    border-radius: 12px;
+    font-weight: 25px;
 }
 
 .parallax
