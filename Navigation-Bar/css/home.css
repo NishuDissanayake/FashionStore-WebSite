@@ -23,35 +23,21 @@ header
     width: 100%;
 }
 
-.table-One{
-
-	width:100%;
-	padding-left: 0.5%;
-	padding-right: 1%;
-
-}
-.Td-One{
-
-	width:20%;
-
-}
 
 
-#head
+
+nav
 {
-	
     padding-top: 1.5rem;
     justify-content: space-between;
     text-transform: uppercase;
     font-size: 1.6rem;
     background-color: rgb(107, 26, 73);
-    top: 0;
-    height: 80px;
-    width: 100%;
-    transition: top 0.7s;
     position: fixed;
+    top: 0;
+    height: 8rem;
+    width: 100%;
 }
-
 
 .elegante
 {
@@ -350,76 +336,3 @@ nav table td
     background-color: rgb(206, 19, 128);
 }
 
-
-.block-1
-{
-    padding-top: 25px;
-    width: 100%;
-    height: 500px;
-    background-image: linear-gradient(to bottom, rgba(221, 109, 156, 0.644), rgba(248, 152, 7, 0.5));
-}
-
-.h1-Banner
-{
-    padding-top: 100px;
-    font-size:50px;
-    text-align: center;
-}
-
-#b-Banner
-{
-    height: 60px;
-    width: 100px;
-    border: 2px solid red;
-    background-color: burlywood;
-    border-radius: 12px;
-    font-weight: 25px;
-}
-
-.parallax
-{
-    padding-top: 50px;
-    background: linear-gradient(to bottom, rgba(221, 109, 156, 0.644), rgba(248, 152, 7, 0.5)), url("../images/background.jpg") center no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 30vh;
-    background-attachment: fixed;
-    color: black;
-    font-size: 10px;
-}
-
-.parallax1
-{
-    background: linear-gradient(to bottom, rgba(221, 109, 156, 0.644), rgba(248, 152, 7, 0.5)), url("/images/banner-1.jpg") center no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 500px;
-    background-attachment: fixed;
-    color: black;
-    font-size: 10px;
-    padding-top: 80px;
-}
-
-#content-1
-{
-    width: 97%;
-    height: 450px;
-    background-image: linear-gradient(to bottom, rgb(100, 14, 54), rgba(177, 179, 60, 0.664));
-}
-
-#h1-1
-{
-    border: 1px solid rgb(110, 8, 64);
-    text-emphasis-color: rgb(110, 8, 64);
-    font-size: 4rem;
-    padding-left: 10px;
-    color: palevioletred;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: left;
-}
-
-.table-2
-{
-    border: 2 x solid black;
-    padding-right: 10 px;
-}
