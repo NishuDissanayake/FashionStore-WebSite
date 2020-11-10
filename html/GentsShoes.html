@@ -3,30 +3,112 @@
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
        <title>Elegante Fashion Store</title>
-       <link rel="stylesheet" href="/css/GentsShoes.css">
+       <link rel="stylesheet" href="../css/GentsShoes.css">
        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet"> 
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    <body>
-    <div class="header">
+    <header>
+    <div class="head">
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="images/logo.png" width="210px" height="210px"> 
+                <img src="../images/logo.png" width="130px" height="130px"> 
             </div>
             <nav>
-                <ul id="MenuItems">
-                    <li><a href="EleganteGents.html">Home</a></li>
-                    <li><a href=#Products>Products</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="Account.html">Account</a></li>
-                </ul>
+                <table>
+                    <tr>
+                        <td>
+                            <center>
+                                <h1 class="Elegante"><a href="home.html">El<span>egan</span>te</a></h1>
+                            </center>
+                        </td>
+                        <td>
+                            <li class="Dropdown-1"><a href="home.html">Home</a>
+                             <ul class="DropdownSet-1">
+                                <li><a href="#">Flash Deals</a></li>
+                                <li><a href="#">Sale</a></li>
+                                <li><a href="#">New Arrivals</a></li>
+                                <li><a href="#">Login & SignUp</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                            </li>
+                        </td>
+                        <td>
+                         <li class="Dropdown-1"><a href="#">Ladies Wear</a>
+                            <ul class="DropdownSet-2">
+                                <li><a href="#">Latest Trends</a></li>
+                                <li><a href="#">Frocks</a></li>
+                                <li><a href="#">Jeans</a></li>
+                                <li><a href="#">Blouses</a></li>
+                                <li><a href="#">T-Shirts</a></li>
+                                <li><a href="#">Formal wear</a></li>
+                            </ul>
+                         </li>
+                        </td>
+                        <td>
+                            <li class="Dropdown-1"><a href="#">Ladies Shoes</a>
+                                <ul class="DropdownSet-3">
+                                   <li><a href="#">Latest Trends</a></li>
+                                    <li><a href="#">Sneakers</a></li>
+                                    <li><a href="#">Stilletos</a></li>
+                                    <li><a href="#">Wedges</a></li>
+                                    <li><a href="#">Pumps</a></li>
+                                    <li><a href="#">Sandals</a></li> 
+                                </ul>
+                            </li>
+                        </td>
+                        <td>
+                            <li class="Dropdown-1"><a href="#">Mens Wear</a>
+                                <ul class="DropdownSet-4">
+                                    <li><a href="#">Latest Trends</a></li>
+                                    <li><a href="#">Jeans</a></li>
+                                    <li><a href="#">T-Shirts</a></li>
+                                    <li><a href="#">Trousers</a></li>
+                                    <li><a href="#">Shirts</a></li>
+                                </ul>
+                            </li>
+                        </td>
+                        <td>
+                            <li class="Dropdown-1"><a href="#">Mens Shoes</a>
+                                <ul class="DropdownSet-5">
+                                    <li><a href="#">Latest Trends</a></li>
+                                    <li><a href="#">Formal Shoes</a></li>
+                                    <li><a href="#">Slippers & Sandals</a></li>
+                                    <li><a href="#">Casual Shoes</a></li>
+                                </ul>
+                            </li>
+                        </td>
+                        <td>
+                            <li class="Dropdown-1"><a href="#">Accessories</a>
+                                <ul class="DropdownSet-6">
+                                    <li><a href="#">Neckleces</a></li>
+                                    <li><a href="#">Bangles</a></li>
+                                    <li><a href="#">Earrings</a></li>
+                                    <li><a href="#">Brooches</a></li>
+                                    <li><a href="#">Hair Pins</a></li>
+                                </ul>
+                            </li>
+                        </td>
+                        <td>
+                            <li class="Dropdown-1">
+                                <ul class="DropdownSet-7">
+                                    <li><a href="#">Foundation</a></li>
+                                    <li><a href="#">Lipstic</a></li>
+                                    <li><a href="#">Face Wash</a></li>
+                                    <li><a href="#">Eye Liner</a></li>
+                                    <li><a href="#">Eye Shodow</a></li>
+                                    <li><a href="#">Perfume</a></li>
+                                </ul>
+                            </li>
+                        </td>
+                    </tr>
+                </table>
             </nav>
-            <img src="images/cart.png" width="30px" height="30px">
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
+</header>
     <div class="row">
         <div class="col-2">
             <h1>Give yourself<br>A new look!</h1>
@@ -34,170 +116,31 @@
             <a href="Products.html" class="btn">Explore Now &#8594;</a>
         </div>
         <div class="col-2">
-            <img src="images/image1_preview_rev_1.png">
+            <img src="../images/image1_preview_rev_1.png">
         </div>
     </div>
     </div>
     
-    <div class="small-container">
-        <h2 class="title" id="Products">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="images/product6.png" >
-                <h4>Brown Boots</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$45.00</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product1.png" >
-                <h4>Brown Leather Shoes</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$55.00</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product4.png" >
-                <h4>Red Sneakers</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product7.png" >
-                <h4>Black Formal Slip-on Shoes</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$40.00</p>
-            </div>
+    
+        <h2 class="title" id="Categories">Formal Shoes</h2>
+        <div class="banner">
+            <img class="banner-img" src="../images/banner-img.jpg">
         </div>
-        <h2 class="title">Latest Products</h2>
+        <br><br><br><br>
+        <h2 class="title">Slippers & Sandals</h2>
         <div class="row">
         <div class="col-4">
-            <img src="images/product8.png" >
-            <h4>Brown Brogues</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$45.00</p>
+            <img src="../images/product8.png" >
         </div>
-        <div class="col-4">
-            <img src="images/product12.png" >
-            <h4>Beige Flat Boots</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$55.00</p>
+        <h2 class="title" id="Categories">Casual Shoes</h2>
         </div>
-        <div class="col-4">
-            <img src="images/product10.png" >
-            <h4>White Sneakers</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/product9.png" >
-            <h4>Grey Suede Mid-Top Driving Shoes</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/product3.png" >
-            <h4>Coffee Brown Formal Slip-on Shoes</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/product2.png" >
-            <h4>White Sneakers</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/product5.png" >
-            <h4>Brown Leather Derbys</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="images/product13.png" >
-            <h4>Black Trekking Shoes</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-        </div>
-        </div>
-    </div>
     
     <!-----------Offer Part----------->
     <div class="offer">
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
-                    <img src="images/product11 exclu.png" class="offer-img">
+                    <img src="../images/product11 exclu.png" class="offer-img">
                 </div>
                 <div class="col-2">
                     <p>Exclusively available on Elegante Fashion Store</p>
@@ -213,7 +156,7 @@
          <div class="container">
              <div class="row">
                  <div class="footer-col-1">
-                     <img src="images/logo.png" >
+                     <img src="../images/logo.png" >
                      <p>Our purpose is to make you Elegant!</p>
                  </div>
                  <div class="footer-col-2">
@@ -238,23 +181,5 @@
              <hr>
          </div>
      </div>
-
-    <!-------------JS for Toggle menu--------------->
-     <script>
-         var MenuItems = document.getElementById("MenuItems");
-         MenuItems.style.maxHeight = "0px";
-
-         function menutoggle(){
-             if(MenuItems.style.maxHeight == "0px")
-             {
-                 MenuItems.style.maxHeight = "200px";
-             }
-             else
-             {
-                 MenuItems.style.maxHeight = "0px";
-             }
-         }
-     </script>
-
    </body>
 </html>

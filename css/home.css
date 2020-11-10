@@ -1,60 +1,71 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html
+{
     font-size: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Roboto Cn",sans-serif;
 }
-.navbar{
-    display: flex;
-    align-items: right;
-    padding: 20px;
+
+a
+{
+    text-decoration: solid;
+    font-weight: 400;
+    color: #000;
 }
-header{
+
+header
+{
     width: 100%;
 }
-nav{
+
+
+
+
+nav
+{
     padding-top: 1.5rem;
     justify-content: space-between;
     text-transform: uppercase;
     font-size: 1.6rem;
-    background-color: radial-gradient(#fbd9ce,#dad6d6);
-    display: flex;
+    background-color: transparent #fff;
+    position: fixed;
     top: 0;
     height: 7.2rem;
     width: 100%;
-    text-align: right;
 }
-.Elegante{
+
+.elegante
+{
     padding-left: 5px;
     padding-right: 75px;
     font-size: 4rem;
     font-weight: 300;
     padding-bottom: 0px;
 }
-.Elegante span{
-    color: rgb(56, 3, 9);
+
+.elegante span
+{
+    color: rgb(56, 2, 2);
 }
-nav table td{
+
+nav table td
+{
     list-style: none;
 }
-.banner{
-    width: 100%;
-    display: block;
-    height: 30%;
-}
-.banner banner-img1{
-    width: 100%;
-    display: block;
-}
-.Dropdown-1{
+
+.Dropdown-1
+{
     padding: 1rem 0;
     margin: 0 3rem;
     position: relative;
     letter-spacing: 1.5px;
 }
+
 .Dropdown-1:last-child
 {
     margin-right: 0;
@@ -66,12 +77,13 @@ nav table td{
     content: '';
     position: absolute;
     width: 100%;
-    height: 2px;
-    background-color: rgb(173, 7, 7);
+    height: 3px;
+    background-color: rgb(231, 66, 66);
     left: 0;
     transform: scaleX(0);
     transition: all .5s;
 }
+
 .Dropdown-1::before
 {
     top: 0;
@@ -89,6 +101,7 @@ nav table td{
 {
     transform: scaleX(1);
 }
+
 .Dropdown-1
 {
     padding-bottom: 5px;
@@ -96,7 +109,7 @@ nav table td{
 
 .Dropdown-1:hover
 {
-    background-color: #ff3;
+    background-color: rgba(248, 248, 248, 0.226);
 }
 
 .DropdownSet-1
@@ -109,6 +122,7 @@ nav table td{
     list-style: none;
 
 }
+
 .DropdownSet-2
 {
     padding-top: 5px;
@@ -174,6 +188,7 @@ nav table td{
     list-style: none;
 
 }
+
 .Dropdown-1:hover .DropdownSet-1
 {
     display: block;
@@ -187,12 +202,12 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
 
 .DropdownSet-1 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
 
 .Dropdown-1:hover .DropdownSet-2
@@ -208,16 +223,19 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
+
 .DropdownSet-2 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
+
 .Dropdown-1:hover .DropdownSet-3
 {
     display: block;
 }
+
 .DropdownSet-3 li
 {
     border: none;
@@ -226,12 +244,12 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
 
 .DropdownSet-3 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
 
 .Dropdown-1:hover .DropdownSet-4
@@ -247,12 +265,12 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
 
 .DropdownSet-4 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
 
 .Dropdown-1:hover .DropdownSet-5
@@ -268,12 +286,12 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
 
 .DropdownSet-5 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
 
 .Dropdown-1:hover .DropdownSet-6
@@ -289,12 +307,12 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
 
 .DropdownSet-6 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
 
 .Dropdown-1:hover .DropdownSet-7
@@ -310,183 +328,23 @@ nav table td{
     padding-right: 10px;
     padding-left: 10px;
     width: 180px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.996);
 }
 
 .DropdownSet-7 li:hover
 {
-    background-color: #ff3;
+    background-color: rgba(7, 7, 7, 0.089);
 }
 
-nav ul{
-    display: inline-block;
-    list-style-type: none;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
-}
-a{
-    text-decoration: solid;
-    font-weight: 400;
-    color: rgb(66, 65, 65);
-}
-p{
-    color: rgb(66, 65, 65);
-    font-size: 14px;
-}
-.container{
-    max-width: 1920px;
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 100px;
-}
-.col-2{
-    flex-basis: 50%;
-    min-width: 300px;
-}
-.col-2 img{
-    max-width: 90%;
-    padding:50px 0px;
-}
-.col-2 h1{
-    font-size: 55px;
-    line-height: 60px;
-    margin: 25px 10;
-}
-.btn{
-    display: inline-block;
-    background: #ff523b;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 20px;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background: #563434;
-}
-.head{
-    background: radial-gradient(#fbd9ce,#dad6d6);
-}
-.head .row{
-    margin-top:175px;
-}
-.small-container{
-    max-width: 1920px;
-    margin: 45px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-.col-4{
-    flex-basis: 50%;
-    padding: 15px;
-    min-width: 200px;
-    margin-bottom: 50px;
-    transition: transform 0.5s;
-}
-.col-4 img{
-    width: 90%;
-    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 1);
-}
-.title{
-    text-align: center;
-    margin: 10 auto 80px;
-    position: relative;
-    line-height: 60px
-    color; #555;
-}
-.title::after{
-    content: '';
-    background: #ff523b;
-    width: 90px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: -3px;
-    left: 50%;
-    transform: translateX(-50%)
-}
-h4{
-    color: #555;
-    font-weight: normal;
-}
-.col-4 p{
-    font-size: 16px;
-}
-h4{
-    color: #555;
-    font-weight: normal;
-}
-.col-4:hover{
-    transform: translateY(-5px);
-}
-.rating .fa{
-    color: rgb(202, 133, 29);
+.block-1
+{
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(to bottom, rgb(243, 129, 129),rgb(238, 167, 167));
 }
 
-/*---------------------offer-----------------------*/
-
-.offer{
-    background: radial-gradient(#fbd9ce,#dad6d6); 
-    margin-top: 80px;
-    padding: 30px 0;
-}
-.col-2 .offer-img{
-    padding: 50px;
-}
-small{
-    color: rgb(49, 49, 49);
-}
-
-/*-----------------footer----------------*/
-
-.footer{
-    background: #000;
-    color: #8a8a8a;
-    font-size: 15px;
-    padding: 60px 0 20px;
-}
-.footer p{
-    color: #8a8a8a;
-}
-.footer h3{
-    color: #fff;
-    margin-bottom: 20px;
-}
-.footer-col-1, .footer-col-2, .footer-col-3{
-    min-width: 250px;
-    margin-bottom: 20px;
-}
-.footer-col-1{
-    flex-basis: 30%;
-}
-.footer-col-1{
-    flex: 1;
-    text-align: center;
-}
-.footer-col-1 img{
-    width: 165px;
-    margin-bottom: 20px;
-    float: left;
-}
-.footer-col-1, .footer-col-1{
-    flex-basis: 12%;
-    text-align: center;
-}
-ul{
-    list-style-type: none;
-}
-.footer hr{
-    border: none;
-    background: #b5b5b5;
-    height: 2px;
-    margin: 20px 0;
+#banner1
+{
+    width: 100%;
+    height: 450px;
 }
