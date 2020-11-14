@@ -1,0 +1,63 @@
+
+/* Gold color codes: #bf8138 #e8cb91 #e8cb91
+    Maroon color code: #6e1529*/
+#nav{
+    background-color: #6e1529;
+    border-bottom: 3px solid #e8cb91;
+    
+}
+
+html body nav div#Drop ul li a{
+
+    color: #e8cb91;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+html body nav div#Drop ul li a:hover{
+
+    color: #ffeecd;
+    
+
+}
+
+.DropDownMenu{
+    position: relative;
+    display: inline-block;
+}
+
+.DropContent{
+    display: none;
+    position: absolute;
+    background: #6e1529;
+    border: 1px solid #bf8138;
+    border-radius: 10px;
+
+}
+
+.DropContent a{
+    width: 120px;
+    height: 40px;
+    padding: 5px 14px;
+    display: block;
+    margin: 0%; 
+}
+
+.DropContent a:hover{
+    text-decoration: none;
+    color: #ffeecd;
+    
+}
+
+.DropDownMenu:hover .DropContent{
+    display: block;
+    z-index: 9999;
+}
+
+.DropDownMenu:hover .DropMainItem{
+    color: #ffeecd !important;
+}
+
+
+
