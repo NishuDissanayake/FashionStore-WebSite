@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 10px;
+    font-family: "Roboto Cn",sans-serif;
+}
+
+a
+{
+    text-decoration: solid;
+    font-weight: 400;
+    color: #eee;
+}
+
+header
+{
+    width: 100%;
+}
+
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col-2{
+    flex-basis: 30%;
+    min-width: 100px;
+  }
+  
+  .col-2 img{
+    max-width: 25px;
+    padding: 50px 0;
+  }
+  .col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+
+
+
+
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+  }
+  select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+  }
+  select:focus{
+    outline: none;
+  }
+  
+  .small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .col-4{
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+  }
+  .col-4 img{
+    width: 100%;
+  }
+    
+
+  h2{
+    color: #000;
+    font-weight: 10px;
+    font-size: 24px;
+  }
+
+  h4{
+    color: #000;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  .col-4 p{
+    font-size: 18px;
+  }
+  .rating .fa{
+    color: #ff523b;
+  }
+  .col-4:hover{
+    transform: translateY(-5px);
+  }
+
+  select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+  }
+  select:focus{
+    outline: none;
+  }
+  .page-btn{
+    margin: 0 auto 80px;
+  }
+  .page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  .page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+  }
+
+  .single-product{
+    margin-top: 80px;
+  }
+  .single-product .col-2 img{
+    padding: 0;
+  }
+  .single-product .col-2{
+    padding: 20px;
+  }
+  .single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+  }
+  input:focus{
+    outline: none;
+  }
+  .single-product .fa{
+    color: #ff523b;
+    margin-left: 10px;
+  }
+  .small-img-row{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+  }
+footer
+{
+    font-size: 15px;
+}

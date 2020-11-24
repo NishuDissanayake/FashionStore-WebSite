@@ -1,127 +1,88 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html
-{
-    font-size: 10px;
-    font-family: "Roboto Cn",sans-serif;
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
 }
 p{
-    font-size: 15px;
+    color: palevioletred;
 }
-a
-{   
-    text-decoration: solid;
-    font-weight: 400;
-    color: rgb(19, 6, 6);
-}
-
-.header
-{
-    width: 100%;
-    
-}
-  .col-2{
-    flex-basis: 30%;
-    min-width: 100px;
-  }
-  
-  .col-2 img{
-    max-width: 25px;
-    padding: 50px 0;
-  }
-  .col-2 h1{
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
-  }
-
-
-.row-2{
-    justify-content: space-between;
-    margin: 300px auto 100px;
-  }
-  select{
-    border: 1px solid #ff523b;
-    padding: 5px;
-  }
-  select:focus{
-    outline: none;
-  }
-
 .container{
-    max-width: 1300px;
+    max-width: 1920px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 100px;
 }
 .col-2{
     flex-basis: 50%;
-    min-width: 70px;
+    min-width: 300px;
 }
 .col-2 img{
     max-width: 100%;
-    padding: 10px 0;
+    padding: 50px 0;
 }
 .col-2 h1{
-    font-size: 40px;
+    font-size:40px;
     line-height: 60px;
-    margin: 25px 0;
+    margin: 25px 10;
 }
 
 .header{
-    background: radial-gradient(rgb(37, 16, 16),#1a0202);
+background: radial-gradient(#fbd9ce,#dad6d6);
 }
 .header .row{
-    margin-top: 70px;
+    margin-top: 3px;
 }
 .categories{
-    margin: 70px 0;
+    margin: 60px 0;
 }
 .col-3{
     flex-basis: 30%;
-    min-width: 250px;
+    min-width: 125px;
     margin-bottom: 30px;
 }
 .col-3 img{
     width: 100%;
 }
 .small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    max-width: 1920px;
+    margin: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .col-4{
-    flex-basis: 20%;
+    flex-basis: 25%;
     padding: 10px;
-    min-width: 250px;
+    min-width: 200px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
 .col-4 img{
     width: 100%;
 }
-
 .title{
     text-align: center;
-    margin: 0 auto 80px;
+    margin: 0 auto 50px;
     position: relative;
-    line-height: 60px;
+    line-height: 50px;
     color: #555;
 }
-
-.title:after{
+.title::after{
     content: '';
     background: #ff523b;
     width: 80px;
@@ -130,43 +91,39 @@ a
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
-}
-h2{
-    font-size: 20px;
-}
-h3{
-    font-size: 15px;
-    text-align: center;
+    transform: translate(-50%);
 }
 h4{
-    font-size: 14px;
     color: #555;
     font-weight: normal;
 }
-
 .col-4 p{
     font-size: 14px;
 }
-
 .rating .fa{
     color: #ff523b;
 }
 .col-4:hover{
     transform: translateY(-5px);
 }
+.rating .fa{
+    color: rgb(red, green, blue);
+}
+/*------- offer --------*/
 
-/*---------- offer---------*/
-
-
-.col-2 .offer-image{
-    padding: 50px;
+.offer{
+    background: radial-gradient(#fff,#ffddf8);
+    margin-top: 10px;
+    padding: 5px 0;
+}
+.col-2 .offer-img{
+    padding: 70px;
 }
 small{
-    color: rgb(122, 93, 93);
+    color: #563434;
 }
 
-/*------------Testimonial--------------*/
+/*----------testimonial---------*/
 
 .testimonial{
     padding-top: 100px;
@@ -178,16 +135,13 @@ small{
     cursor: pointer;
     transition: transform 0.5s;
 }
-
 .testimonial .col-3 img{
     width: 50px;
-    margin-top: 20;
+    margin-top: 20px;
     border-radius: 50%;
 }
-
 .testimonial .col-3:hover{
     transform: translateY(-10px);
-
 }
 .fa.fa-quote-left{
     font-size: 34px;
@@ -205,22 +159,22 @@ small{
 }
 
 
-/*------------All product page-------------*/
+/*-------- all products page ---------*/
 
 .row-2{
     justify-content: space-between;
     margin: 100px auto 50px;
+
 }
 select{
     border: 1px solid #ff523b;
     padding: 5px;
 }
-select:focus{
+select :focus{
     outline: none;
 }
-
 .page-btn{
-    margin: 0 auto 80px;
+    margin: 0 auto 8px;
 }
 .page-btn span{
     display: inline-block;
@@ -234,13 +188,46 @@ select:focus{
 }
 .page-btn span:hover{
     background: #ff523b;
+    color: #fff;
 }
 
-.offer-img{
-    width: 100%;
-    height: auto;
-}
+/*---------singale product details---------*/
 
+.single-product{
+    margin-top:80px;
+}
+.single-product .col-2 img{
+    padding:0;
+}
+.single-product .col-2 img{
+    padding:20px;
+}
+.single-product h4{
+    margin:20px 0;
+    font-size:22px;
+    font-weight: bold;
+}
+.single-product select{
+    display:block;
+    padding:10px;
+    margin-top:20px;
+}
+.single-product input{
+    width:50px;
+    height:40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border:1px solid #ff523b;
+}
+input:focus{
+    outline:none;
+}
+.single-product .fa{
+    color:#ff523b;
+    margin-left: 10px;
+}
+ 
 footer
 {
     font-size: 15px;
