@@ -14,7 +14,7 @@ body{
     height: 420px;
     background: #000;
     color: #fff;
-    top: 50%;
+    margin-top: 300px;
     left: 50%;
     position: absolute;
     transform: translate(-50% , -50%);
@@ -99,4 +99,9 @@ body{
    .loginbox a: hover
   {
       color: #ffc107;
+  }
+
+  footer
+  {
+      margin-top: 720px !important;
   }
